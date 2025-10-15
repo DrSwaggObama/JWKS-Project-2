@@ -28,9 +28,17 @@ A robust JSON Web Key Set (JWKS) server implementation in Go with SQLite-backed 
    cd jwks-server-project2
    ```
 
-2. **Install dependencies:**
+2. **Initialize Go module and install dependencies:**
    ```bash
-   go mod download
+   # Initialize the Go module
+   go mod init jwks-server
+   
+   # Install required dependencies
+   go get github.com/golang-jwt/jwt/v5
+   go get github.com/mattn/go-sqlite3
+   
+   # Tidy up dependencies (optional)
+   go mod tidy
    ```
 
 3. **Run the server:**

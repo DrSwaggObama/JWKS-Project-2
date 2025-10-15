@@ -195,4 +195,8 @@ rm totally_not_my_privateKeys.db
 
 ## ⚠️ Educational Purpose
 
-> **Note**: This project is designed for learning JWKS/JWT concepts and database-backed key management. It should not be used in production without proper authentication, key rotation, and security hardening.
+> **Note**: This project is designed for learning JWKS/JWT concepts and should not be used in production without proper authentication, key rotation, and security hardening.
+
+## 📄 License
+
+This project is for educational use.
